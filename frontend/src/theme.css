@@ -1,0 +1,299 @@
+/* ========================================================
+   THEME STYLES (Light / Dark)
+   Imported separately from Tailwind to avoid purge stripping
+   ======================================================== */
+
+/* Body transitions */
+body {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ========================================================
+   LIGHT THEME (White / Clean WhatsApp Style)
+   ======================================================== */
+html.light,
+html.light body,
+body.light {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Surfaces and Cards */
+html.light aside,
+body.light aside {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 2px 0 12px 0 rgba(0, 0, 0, 0.04) !important;
+}
+
+html.light header,
+body.light header {
+  border-color: #e2e8f0 !important;
+}
+
+/* All background overrides for light mode */
+html.light [class*="bg-[#0b0f19]"],
+body.light [class*="bg-[#0b0f19]"] {
+  background-color: #f8fafc !important;
+}
+
+html.light [class*="bg-[#080d1a]"],
+body.light [class*="bg-[#080d1a]"] {
+  background-color: #ffffff !important;
+}
+
+html.light [class*="bg-[#070b16]"],
+body.light [class*="bg-[#070b16]"] {
+  background-color: #f8fafc !important;
+}
+
+html.light [class*="bg-[#0f172a]"],
+body.light [class*="bg-[#0f172a]"] {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05) !important;
+}
+
+html.light [class*="bg-[#141d33]"],
+body.light [class*="bg-[#141d33]"] {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light [class*="bg-[#0e1628]"],
+body.light [class*="bg-[#0e1628]"] {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light [class*="bg-[#182238]"],
+body.light [class*="bg-[#182238]"] {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light [class*="bg-[#0b101d]"],
+body.light [class*="bg-[#0b101d]"] {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light [class*="bg-[#0c1322]"],
+body.light [class*="bg-[#0c1322]"] {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light [class*="bg-[#162138]"],
+body.light [class*="bg-[#162138]"] {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light [class*="bg-[#1a243e]"],
+body.light [class*="bg-[#1a243e]"] {
+  background-color: #e2e8f0 !important;
+}
+
+/* Borders */
+html.light [class*="border-[#1e293b]"],
+body.light [class*="border-[#1e293b]"],
+html.light [class*="border-[#172033]"],
+body.light [class*="border-[#172033]"],
+html.light [class*="border-[#223050]"],
+body.light [class*="border-[#223050]"],
+html.light [class*="border-[#23314e]"],
+body.light [class*="border-[#23314e]"],
+html.light [class*="border-[#1a243a]"],
+body.light [class*="border-[#1a243a]"],
+html.light [class*="border-[#253556]"],
+body.light [class*="border-[#253556]"] {
+  border-color: #e2e8f0 !important;
+}
+
+html.light [class*="divide-[#172033]"] > :not([hidden]) ~ :not([hidden]),
+body.light [class*="divide-[#172033]"] > :not([hidden]) ~ :not([hidden]) {
+  border-color: #e2e8f0 !important;
+}
+
+/* Typography Hierarchy in Light Mode */
+html.light [class*="text-white"],
+body.light [class*="text-white"] {
+  color: #0f172a !important;
+}
+
+html.light [class*="text-slate-100"],
+body.light [class*="text-slate-100"] {
+  color: #0f172a !important;
+}
+
+html.light [class*="text-slate-200"],
+body.light [class*="text-slate-200"] {
+  color: #1e293b !important;
+}
+
+html.light [class*="text-slate-300"],
+body.light [class*="text-slate-300"] {
+  color: #334155 !important;
+}
+
+html.light [class*="text-slate-400"],
+body.light [class*="text-slate-400"] {
+  color: #64748b !important;
+}
+
+html.light [class*="text-slate-500"],
+body.light [class*="text-slate-500"] {
+  color: #64748b !important;
+}
+
+/* Inputs & Form Controls */
+html.light input,
+body.light input,
+html.light select,
+body.light select,
+html.light textarea,
+body.light textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+html.light input::placeholder,
+body.light input::placeholder,
+html.light textarea::placeholder,
+body.light textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Hover States in Light Mode */
+html.light [class*="hover:bg-[#11192e]"]:hover,
+body.light [class*="hover:bg-[#11192e]"]:hover {
+  background-color: #f1f5f9 !important;
+}
+
+html.light [class*="hover:bg-[#141d33]"]:hover,
+body.light [class*="hover:bg-[#141d33]"]:hover {
+  background-color: #f1f5f9 !important;
+}
+
+html.light [class*="hover:bg-[#1a2542]"]:hover,
+body.light [class*="hover:bg-[#1a2542]"]:hover {
+  background-color: #e2e8f0 !important;
+}
+
+html.light [class*="hover:text-white"]:hover,
+body.light [class*="hover:text-white"]:hover {
+  color: #0f172a !important;
+}
+
+html.light [class*="hover:text-slate-200"]:hover,
+body.light [class*="hover:text-slate-200"]:hover {
+  color: #0f172a !important;
+}
+
+/* Keep white text on solid/gradient colored buttons & badges! */
+html.light [class*="bg-indigo-600"],
+body.light [class*="bg-indigo-600"],
+html.light [class*="bg-indigo-700"],
+body.light [class*="bg-indigo-700"],
+html.light [class*="bg-[#4f46e5]"],
+body.light [class*="bg-[#4f46e5]"],
+html.light [class*="bg-emerald-600"],
+body.light [class*="bg-emerald-600"],
+html.light [class*="bg-purple-600"],
+body.light [class*="bg-purple-600"],
+html.light [class*="bg-gradient-to-tr"],
+body.light [class*="bg-gradient-to-tr"],
+html.light [class*="bg-gradient-to-r"],
+body.light [class*="bg-gradient-to-r"] {
+  color: #ffffff !important;
+}
+
+html.light [class*="bg-indigo-600"] *,
+body.light [class*="bg-indigo-600"] *,
+html.light [class*="bg-indigo-700"] *,
+body.light [class*="bg-indigo-700"] *,
+html.light [class*="bg-[#4f46e5]"] *,
+body.light [class*="bg-[#4f46e5]"] *,
+html.light [class*="bg-gradient-to-tr"] *,
+body.light [class*="bg-gradient-to-tr"] *,
+html.light [class*="bg-gradient-to-r"] *,
+body.light [class*="bg-gradient-to-r"] * {
+  color: #ffffff !important;
+}
+
+/* Contrast text colors for light mode */
+html.light [class*="text-indigo-400"],
+body.light [class*="text-indigo-400"] {
+  color: #4f46e5 !important;
+}
+
+html.light [class*="text-emerald-400"],
+body.light [class*="text-emerald-400"] {
+  color: #059669 !important;
+}
+
+html.light [class*="text-amber-400"],
+body.light [class*="text-amber-400"] {
+  color: #d97706 !important;
+}
+
+html.light [class*="text-blue-400"],
+body.light [class*="text-blue-400"] {
+  color: #2563eb !important;
+}
+
+html.light [class*="text-purple-400"],
+body.light [class*="text-purple-400"] {
+  color: #7c3aed !important;
+}
+
+/* Scrollbars */
+html.light ::-webkit-scrollbar-track,
+body.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+html.light ::-webkit-scrollbar-thumb,
+body.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+html.light ::-webkit-scrollbar-thumb:hover,
+body.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ========================================================
+   DARK THEME (Default Sleek Black / Deep Slate)
+   ======================================================== */
+html.dark,
+html.dark body,
+body.dark {
+  background-color: #0b0f19 !important;
+  color: #e2e8f0 !important;
+}
+
+html.dark ::-webkit-scrollbar,
+body.dark ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+html.dark ::-webkit-scrollbar-track,
+body.dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+html.dark ::-webkit-scrollbar-thumb,
+body.dark ::-webkit-scrollbar-thumb {
+  background: #27354f;
+  border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover,
+body.dark ::-webkit-scrollbar-thumb:hover {
+  background: #3b4d70;
+}

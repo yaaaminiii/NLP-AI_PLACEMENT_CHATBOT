@@ -1,0 +1,227 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?",
+        "Hello chatbot"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! What can I do for you?",
+        "Hello! Feel free to ask me anything."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I am leaving",
+        "Bye chatbot"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Thank you for chatting with me."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+
+    {
+      "tag": "nlp",
+      "patterns": [
+        "What is NLP?",
+        "What does NLP mean?",
+        "Explain NLP",
+        "What is natural language processing?",
+        "Tell me about NLP",
+        "Define natural language processing",
+        "How does NLP work?"
+      ],
+      "responses": [
+        "NLP stands for Natural Language Processing. It helps computers understand and process human language.",
+        "Natural Language Processing is a field of AI that enables computers to work with human language."
+      ]
+    },
+
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning?",
+        "Explain machine learning",
+        "What does machine learning mean?",
+        "Tell me about machine learning",
+        "Define machine learning",
+        "How does machine learning work?"
+      ],
+      "responses": [
+        "Machine learning is a branch of AI where computers learn patterns from data and make predictions or decisions."
+      ]
+    },
+
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "What is deep learning?",
+        "Explain deep learning",
+        "What does deep learning mean?",
+        "Tell me about deep learning",
+        "What are neural networks?"
+      ],
+      "responses": [
+        "Deep learning is a type of machine learning that uses neural networks with multiple layers to learn complex patterns."
+      ]
+    },
+
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Explain Python",
+        "Why is Python used in AI?",
+        "Tell me about Python",
+        "What can Python do?"
+      ],
+      "responses": [
+        "Python is a popular programming language widely used for web development, data science, artificial intelligence and machine learning."
+      ]
+    },
+
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "What is this chatbot?",
+        "Who created you?",
+        "What can you do?"
+      ],
+      "responses": [
+        "I am an AI chatbot built using Natural Language Processing and machine learning.",
+        "I can understand user queries, identify intents and provide suitable responses."
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "Can you help me?",
+        "I need help",
+        "What can you help with?",
+        "How can you help me?"
+      ],
+      "responses": [
+        "Sure! Ask me a question and I will try to help you.",
+        "I can answer questions related to NLP, AI, machine learning and Python."
+      ]
+    },
+
+    {
+      "tag": "course",
+      "patterns": [
+        "What courses are available?",
+        "Tell me about the course",
+        "What can I learn?",
+        "Which course should I take?",
+        "Tell me about your courses"
+      ],
+      "responses": [
+        "You can explore courses related to programming, artificial intelligence, machine learning and NLP."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What is your contact information?",
+        "How do I contact support?",
+        "Where can I get help?",
+        "Contact information"
+      ],
+      "responses": [
+        "You can contact the support team through the contact section of the application."
+      ]
+    },
+
+    {
+      "tag": "working",
+      "patterns": [
+        "How does this chatbot work?",
+        "How does the chatbot understand me?",
+        "How do you process my question?",
+        "Explain the chatbot process",
+        "What happens when I ask a question?"
+      ],
+      "responses": [
+        "Your query is first preprocessed, converted into TF-IDF features, classified into an intent and then an appropriate response is generated."
+      ]
+    },
+
+    {
+      "tag": "accuracy",
+      "patterns": [
+        "What is your accuracy?",
+        "How accurate are you?",
+        "What is chatbot accuracy?",
+        "How do you measure accuracy?"
+      ],
+      "responses": [
+        "The chatbot accuracy is measured by testing the intent classification model on test data."
+      ]
+    },
+
+    {
+      "tag": "faq",
+      "patterns": [
+        "What are frequently asked questions?",
+        "Show me common questions",
+        "What questions can I ask?",
+        "What are the common queries?"
+      ],
+      "responses": [
+        "You can ask questions about NLP, machine learning, deep learning, Python and the chatbot itself."
+      ]
+    },
+
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdfgh",
+        "I don't know what to ask",
+        "Random question",
+        "Something else"
+      ],
+      "responses": [
+        "Sorry, I didn't understand your question. Could you please rephrase it?",
+        "I'm not sure I understand. Please try asking your question differently."
+      ]
+    }
+  ]
+}

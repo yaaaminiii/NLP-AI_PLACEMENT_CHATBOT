@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+/* ========================================================
+   LIGHT THEME (White / Clean Style - WhatsApp Inspired)
+   Uses W3C Attribute Selectors to prevent PostCSS bracket purging
+   ======================================================== */
+html.light,
+body.light {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Surfaces and Backgrounds in Light Mode */
+html.light [class*="bg-[#0b0f19]"] { background-color: #f8fafc !important; }
+html.light [class*="bg-[#080d1a]"] { background-color: #ffffff !important; box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.04) !important; }
+html.light [class*="bg-[#070b16]"] { background-color: #f8fafc !important; }
+html.light [class*="bg-[#0f172a]"] { 
+  background-color: #ffffff !important; 
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06), 0 1px 2px -1px rgba(0, 0, 0, 0.04) !important; 
+}
+html.light [class*="bg-[#141d33]"] { background-color: #f1f5f9 !important; }
+html.light [class*="bg-[#0e1628]"] { background-color: #f8fafc !important; }
+html.light [class*="bg-[#182238]"] { background-color: #f1f5f9 !important; }
+html.light [class*="bg-[#0b101d]"] { background-color: #f8fafc !important; }
+html.light [class*="bg-[#0c1322]"] { background-color: #f8fafc !important; }
+html.light [class*="bg-[#162138]"] { background-color: #f1f5f9 !important; }
+html.light [class*="bg-[#1a243e]"] { background-color: #e2e8f0 !important; }
+
+/* Borders and Separators in Light Mode */
+html.light [class*="border-[#1e293b]"],
+html.light [class*="border-[#172033]"],
+html.light [class*="border-[#223050]"],
+html.light [class*="border-[#23314e]"],
+html.light [class*="border-[#1a243a]"],
+html.light [class*="border-[#253556]"],
+html.light [class*="divide-[#172033]"] > :not([hidden]) ~ :not([hidden]) {
+  border-color: #e2e8f0 !important;
+}
+
+/* Typography Hierarchy in Light Mode */
+html.light [class*="text-white"] { color: #0f172a !important; }
+html.light [class*="text-slate-100"] { color: #0f172a !important; }
+html.light [class*="text-slate-200"] { color: #1e293b !important; }
+html.light [class*="text-slate-300"] { color: #334155 !important; }
+html.light [class*="text-slate-400"] { color: #64748b !important; }
+html.light [class*="text-slate-500"] { color: #64748b !important; }
+
+/* Form Elements in Light Mode */
+html.light input,
+html.light select,
+html.light textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Interactive States */
+html.light [class*="hover:bg-[#11192e]"]:hover { background-color: #f1f5f9 !important; }
+html.light [class*="hover:bg-[#141d33]"]:hover { background-color: #f1f5f9 !important; }
+html.light [class*="hover:bg-[#1a2542]"]:hover { background-color: #e2e8f0 !important; }
+html.light [class*="hover:text-white"]:hover { color: #0f172a !important; }
+html.light [class*="hover:text-slate-200"]:hover { color: #0f172a !important; }
+
+/* CRITICAL: Keep white text on colored accent elements and user chat bubbles! */
+html.light [class*="bg-indigo-600"],
+html.light [class*="bg-indigo-700"],
+html.light [class*="bg-[#4f46e5]"],
+html.light [class*="bg-emerald-600"],
+html.light [class*="bg-purple-600"],
+html.light [class*="bg-gradient-to-tr"],
+html.light [class*="bg-gradient-to-r"] {
+  color: #ffffff !important;
+}
+html.light [class*="bg-indigo-600"] *,
+html.light [class*="bg-indigo-700"] *,
+html.light [class*="bg-[#4f46e5]"] *,
+html.light [class*="bg-gradient-to-tr"] *,
+html.light [class*="bg-gradient-to-r"] * {
+  color: #ffffff !important;
+}
+
+/* Calibrate text accents for high contrast in light mode */
+html.light [class*="text-indigo-400"] { color: #4f46e5 !important; }
+html.light [class*="text-emerald-400"] { color: #059669 !important; }
+html.light [class*="text-amber-400"] { color: #d97706 !important; }
+html.light [class*="text-blue-400"] { color: #2563eb !important; }
+html.light [class*="text-purple-400"] { color: #7c3aed !important; }
+
+/* Light Theme Scrollbars */
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+html.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ========================================================
+   DARK THEME (Default Sleek Black / Deep Slate)
+   ======================================================== */
+html.dark,
+body.dark {
+  background-color: #0b0f19 !important;
+  color: #e2e8f0 !important;
+}
+
+html.dark ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #27354f;
+  border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #3b4d70;
+}
+
+/* Typing bounce animation */
+@keyframes typingBounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-5px); }
+}
+
+.typing-dot:nth-child(1) { animation: typingBounce 1.4s infinite ease-in-out; }
+.typing-dot:nth-child(2) { animation: typingBounce 1.4s infinite ease-in-out 0.2s; }
+.typing-dot:nth-child(3) { animation: typingBounce 1.4s infinite ease-in-out 0.4s; }

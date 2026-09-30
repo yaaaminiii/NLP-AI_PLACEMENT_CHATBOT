@@ -1,0 +1,465 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hello assistant",
+        "Hi placement bot",
+        "Greetings",
+        "Start chat",
+        "Help me with placements",
+        "Can you help me prepare for placements?",
+        "Hello there",
+        "Hi sir"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI Placement Assistant. How can I help you with your campus or off-campus placement preparation today?",
+        "Hi there! I'm your AI Placement Assistant. Ask me anything regarding aptitude, coding, DSA, resumes, or interview preparation!",
+        "Greetings! Ready to ace your placements? Ask me about preparation roadmaps, company interview rounds, or resume advice."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I am leaving",
+        "Thanks bye",
+        "Have a good day",
+        "Exit",
+        "End chat"
+      ],
+      "responses": [
+        "Goodbye! Best of luck with your placement preparation. Stay consistent and keep practicing!",
+        "See you later! Feel free to return anytime you need interview tips or coding guidance. You've got this!",
+        "Farewell! Keep solving problems and revising your core subjects. All the best for your dream job!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate your help",
+        "That was very helpful",
+        "Thanks for the roadmap",
+        "Great advice thank you"
+      ],
+      "responses": [
+        "You're very welcome! Keep up the hard work and consistency.",
+        "Happy to assist you! Feel free to ask more questions about placements or technical rounds.",
+        "Anytime! Wishing you immense success in your upcoming placement drives."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What are campus placements?",
+        "Tell me about placements",
+        "How do placements work in college?",
+        "Difference between on-campus and off-campus placements",
+        "Campus vs off campus placements",
+        "What are placements?",
+        "How to get placed in a good company?",
+        "Placement drive information"
+      ],
+      "responses": [
+        "Campus placements are recruitment drives organized by colleges where companies visit to hire graduating students directly. In on-campus drives, competition is limited to your college peers, whereas off-campus placements involve competing on job portals with applicants nationwide.",
+        "Placements typically evaluate students through four consecutive rounds: 1) Online Assessment (Aptitude & Coding), 2) Technical Interview(s), 3) Managerial / GD Round, and 4) HR Interview."
+      ]
+    },
+    {
+      "tag": "placement_eligibility",
+      "patterns": [
+        "What is the eligibility for placements?",
+        "Am I eligible for campus placements?",
+        "What are placement criteria?",
+        "Eligibility criteria for campus placements",
+        "What percentage is needed for placements?",
+        "Do companies check 10th and 12th marks?",
+        "Academic criteria for placement recruitment"
+      ],
+      "responses": [
+        "Typical campus placement eligibility requires: 1) Minimum 60% or 6.5+ CGPA in B.Tech/Degree, 2) 60%+ in 10th and 12th standard, and 3) No active backlogs at the time of recruitment. Product-based companies usually have more relaxed percentage criteria if coding skills are strong.",
+        "Eligibility varies by company tier: Service companies (TCS, Infosys, Wipro) generally ask for 60% across 10th, 12th, and B.Tech. Product companies (Amazon, Microsoft, startups) prioritize problem-solving and DSA skills with a 6.5–7.0+ CGPA requirement."
+      ]
+    },
+    {
+      "tag": "placement_process",
+      "patterns": [
+        "Explain the placement process",
+        "What are the rounds in campus placements?",
+        "What is the hiring process for college placements?",
+        "Steps in campus recruitment",
+        "What happens in a placement drive?",
+        "How many rounds are there in placement interviews?",
+        "Placement selection rounds"
+      ],
+      "responses": [
+        "The standard 4-step campus placement process is: 1) Resume Shortlisting & Registration, 2) Online Assessment (Quantitative Aptitude, Logical Reasoning, Verbal, and 1-2 Coding questions), 3) Technical Interview (DSA, OOP, DBMS, OS, and Projects), and 4) HR Interview (Behavioral & Cultural fit).",
+        "Most companies follow: Online Assessment -> Technical Interview 1 (DSA/Problem solving) -> Technical Interview 2 (Core CS subjects & system design basics) -> HR/Managerial Interview -> Final Offer Letter."
+      ]
+    },
+    {
+      "tag": "placement_roadmap",
+      "patterns": [
+        "Give me a placement preparation roadmap",
+        "Placement roadmap",
+        "How should I prepare for placements step by step?",
+        "Give me a 30-day placement preparation plan",
+        "6 month placement preparation roadmap",
+        "Roadmap to crack product companies",
+        "How to start placement preparation?",
+        "Complete roadmap for campus placements"
+      ],
+      "responses": [
+        "Placement Roadmap: Phase 1 (Month 1-2): Master 1 programming language (Java/C++/Python) and fundamentals of DSA (Arrays, Strings, Linked Lists, Stacks, Queues). Phase 2 (Month 3-4): Advanced DSA (Trees, Graphs, DP), Core CS Subjects (DBMS, OS, CN, OOP), and Aptitude practice. Phase 3 (Month 5): Build 2 solid projects, polish resume, practice LeetCode medium questions. Phase 4 (Month 6): Mock interviews, company past papers, and HR prep.",
+        "30-Day Crash Placement Plan: Days 1-10: Revise Top 50 DSA patterns (Sliding Window, Two Pointers, DFS/BFS, Binary Search) and practice Quantitative Aptitude daily. Days 11-20: Revise Core CS (SQL queries, Normalization, OOP principles, OS Process/Threads). Days 21-25: In-depth project walk-through and resume bullet-point review. Days 26-30: Mock interviews and company specific past papers."
+      ]
+    },
+    {
+      "tag": "aptitude",
+      "patterns": [
+        "How should I prepare for aptitude tests?",
+        "Aptitude preparation",
+        "What is asked in aptitude round?",
+        "Best resources for aptitude",
+        "How to crack aptitude round in placements?",
+        "Quantitative aptitude topics",
+        "Give me aptitude preparation tips",
+        "How to practice quantitative aptitude?"
+      ],
+      "responses": [
+        "Aptitude rounds test speed and accuracy. Key Quantitative topics: Time & Work, Speed Time & Distance, Percentages, Profit & Loss, Ratio & Proportion, Permutations & Combinations, Probability, and Number Systems. Practice on IndiaBIX, PrepInsta, and RS Aggarwal.",
+        "Top Aptitude Strategy: 1) Learn shortcut formulas and mental math tricks, 2) Target high-accuracy questions first, 3) Allocate 1-1.5 minutes per question, and 4) Solve at least 20-30 questions daily under timed conditions."
+      ]
+    },
+    {
+      "tag": "logical_reasoning",
+      "patterns": [
+        "How to prepare for logical reasoning?",
+        "Logical reasoning topics for placements",
+        "Logical reasoning questions",
+        "What topics are in logical reasoning round?",
+        "Tips for logical reasoning test",
+        "Reasoning ability preparation"
+      ],
+      "responses": [
+        "Important Logical Reasoning topics: Blood Relations, Direction Sense, Coding-Decoding, Seating Arrangements (Linear & Circular), Syllogisms, Series Completion, and Data Sufficiency.",
+        "To score high in reasoning: Draw clear diagrams for seating arrangements and direction problems, use Venn diagrams for syllogisms, and practice identifying letter-shift patterns for coding-decoding questions."
+      ]
+    },
+    {
+      "tag": "verbal_ability",
+      "patterns": [
+        "How to prepare for verbal ability?",
+        "Verbal ability topics for placements",
+        "English round preparation for placements",
+        "Reading comprehension and grammar tips",
+        "Verbal ability questions",
+        "How to clear verbal ability round?"
+      ],
+      "responses": [
+        "Verbal Ability covers: Reading Comprehension, Sentence Correction (Subject-Verb agreement, Tenses, Prepositions), Synonyms & Antonyms, Para Jumbles, and Spotting Errors. Practice daily reading of technical articles and solve passages under a 5-minute timer.",
+        "Tips for Verbal: In Reading Comprehension, read the questions first so you know what keywords to scan for in the passage. For Para Jumbles, look for opening sentences and noun-pronoun connecting pairs."
+      ]
+    },
+    {
+      "tag": "coding",
+      "patterns": [
+        "How to prepare for coding rounds?",
+        "Coding preparation for placements",
+        "What topics should I study for coding rounds?",
+        "How to clear online coding test?",
+        "Coding test tips",
+        "Coding questions for placements",
+        "How many coding questions are asked in online assessment?"
+      ],
+      "responses": [
+        "Coding rounds typically ask 2-3 problems to be solved in 60-90 minutes. Focus on: String manipulation, Array operations, Hashing, Two Pointers, and Binary Search for service companies; Dynamic Programming, Trees, and Graphs for product companies.",
+        "Key tips to pass coding tests: 1) Master Time & Space complexity analysis (aim for O(N) or O(N log N)), 2) Always consider edge cases (empty input, negative numbers, overflow), and 3) Ensure your code passes all hidden test cases within execution limits."
+      ]
+    },
+    {
+      "tag": "dsa",
+      "patterns": [
+        "What DSA topics should I learn?",
+        "DSA topics for placements",
+        "Data structures and algorithms for placements",
+        "Most important DSA topics",
+        "How much DSA is needed for placements?",
+        "Important data structures for interviews",
+        "DSA roadmap"
+      ],
+      "responses": [
+        "Must-know DSA topics in order of priority: 1) Arrays, Strings & HashMaps, 2) Two Pointers & Sliding Window, 3) Linked Lists, Stacks & Queues, 4) Binary Trees & Binary Search Trees (Traversals, LCA), 5) Graphs (BFS, DFS, Dijkstra), 6) Dynamic Programming (Knapsack, LCS, LIS), and 7) Heap / Priority Queue.",
+        "For Service-based companies (TCS, Infosys, Cognizant): Basic Arrays, Strings, Searching & Sorting are sufficient. For Product-based companies (Amazon, Adobe, Flipkart): Deep mastery of Trees, Graphs, DP, and Trie is essential."
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "Which programming language is best for placements?",
+        "Should I choose Java, C++, or Python for placements?",
+        "Programming languages for campus placements",
+        "Is Python good for coding interviews?",
+        "C++ vs Java for placements",
+        "Best language for DSA"
+      ],
+      "responses": [
+        "C++ and Java are the most widely recommended languages for placements due to their speed, strong standard template libraries (C++ STL, Java Collections), and widespread acceptance in all company coding platforms.",
+        "Python is excellent for rapid coding and clean syntax, but ensure you also understand memory management and OOP concepts in C++ or Java, as many interviewers test Object-Oriented Design in Java/C++."
+      ]
+    },
+    {
+      "tag": "technical_interview",
+      "patterns": [
+        "How do I prepare for technical interviews?",
+        "Technical interview questions",
+        "What is asked in a technical interview?",
+        "How to clear technical round?",
+        "Core computer science subjects for interviews",
+        "What questions do interviewers ask in tech rounds?"
+      ],
+      "responses": [
+        "Technical interviews assess 4 pillars: 1) Live DSA problem-solving with optimal time complexity, 2) Core CS subjects (DBMS, Operating Systems, Computer Networks, and OOP), 3) In-depth walkthrough of projects on your resume, and 4) System Design basics for Tier-1 companies.",
+        "During a technical interview: Always think out loud! Communicate your thought process before writing code. Start with a brute-force approach, discuss trade-offs, and then optimize to an efficient solution."
+      ]
+    },
+    {
+      "tag": "hr_interview",
+      "patterns": [
+        "How to prepare for HR interview?",
+        "Common HR interview questions",
+        "HR interview tips",
+        "How should I introduce myself in an interview?",
+        "Tell me about yourself interview question",
+        "What are common HR questions for freshers?",
+        "Why should we hire you answer"
+      ],
+      "responses": [
+        "Top HR questions: 1) 'Tell me about yourself', 2) 'What are your strengths and weaknesses?', 3) 'Why do you want to join our company?', 4) 'Where do you see yourself in 5 years?', and 5) 'Describe a challenging situation and how you handled it (STAR method)'.",
+        "Self-Introduction Formula: Present (Current degree, college, and core technical skills) -> Past (Key academic project and internships) -> Future (Career goal and why this role excites you). Keep it crisp under 90 seconds!"
+      ]
+    },
+    {
+      "tag": "mock_interview",
+      "patterns": [
+        "How to practice mock interviews?",
+        "Mock interview preparation",
+        "Importance of mock interviews",
+        "Where can I give mock interviews?",
+        "How to overcome interview nervousness?"
+      ],
+      "responses": [
+        "Mock interviews build confidence and reduce anxiety. Practice with peers using platforms like Pramp, Interviewing.io, or record yourself answering technical and behavioral questions to critique your body language, tone, and clarity.",
+        "Simulate real interview constraints: Set a 45-minute timer, code on a shared whiteboard or plain Google Doc without autocomplete, and practice explaining your code line by line."
+      ]
+    },
+    {
+      "tag": "resume",
+      "patterns": [
+        "How can I improve my resume?",
+        "What should I include in my resume?",
+        "Resume format for campus placements",
+        "Resume building for college students",
+        "How long should a fresher resume be?",
+        "What sections should be on a fresher resume?",
+        "How to make ATS friendly resume"
+      ],
+      "responses": [
+        "A fresher resume must be strictly 1 page! Key sections: 1) Contact Info & GitHub/LinkedIn links, 2) Education with CGPA, 3) Technical Skills (Languages, Frameworks, Tools), 4) 2-3 Strong Projects with metrics, 5) Internships or Experience, and 6) Achievements / Certifications.",
+        "ATS (Applicant Tracking System) Tips: Use a single-column clean format (LaTeX / Jake's Resume template), avoid graphics and tables, and use industry standard keywords matching the job description."
+      ]
+    },
+    {
+      "tag": "resume_tips",
+      "patterns": [
+        "Resume tips for placements",
+        "How to write project bullet points in resume?",
+        "Action verbs for resume",
+        "Resume mistakes to avoid",
+        "How to describe projects on resume?"
+      ],
+      "responses": [
+        "Use Google's XYZ formula for project bullets: 'Accomplished [X] as measured by [Y], by doing [Z]'. Example: 'Developed a full-stack chatbot using NLP and TF-IDF in Python, reducing query resolution time by 40%'.",
+        "Resume Dos and Don'ts: DO link live GitHub repositories and hosted demos. DON'T put obsolete hobbies, false technical skills you cannot defend, or multiple pages for a fresher."
+      ]
+    },
+    {
+      "tag": "group_discussion",
+      "patterns": [
+        "How to prepare for group discussions?",
+        "Group discussion tips for placements",
+        "What is GD in placement process?",
+        "How to clear GD round?",
+        "Rules of group discussion",
+        "Common GD topics"
+      ],
+      "responses": [
+        "In Group Discussions (GD), recruiters evaluate communication, leadership, listening, and teamwork. Do not shout or dominate aggressively. Speak 3-4 quality points, listen actively to others, and acknowledge peers before presenting your perspective.",
+        "Key GD strategies: 1) Initiating the discussion gives bonus points only if you define the topic well, 2) If you don't know the topic, listen to the first 2 speakers and summarize their ideas with your insights, 3) Conclude or summarize if given the opportunity."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "How to get an internship in college?",
+        "Internship preparation",
+        "Why are internships important for placements?",
+        "Where to apply for internships?",
+        "Can I get placed without an internship?",
+        "How to find off-campus internships?"
+      ],
+      "responses": [
+        "Internships provide real-world experience and make your resume stand out. Apply via LinkedIn Jobs, Wellfound (AngelList), Internshala, and company career pages. Reach out to alumni on LinkedIn with a customized message and your resume.",
+        "While having an internship is a huge advantage, you can still crack top placements without one if you have 2-3 exceptional, fully deployed full-stack or ML projects with clear GitHub documentation."
+      ]
+    },
+    {
+      "tag": "company_preparation",
+      "patterns": [
+        "How can I prepare for TCS?",
+        "How to prepare for Infosys?",
+        "How to prepare for Wipro or Accenture?",
+        "How to prepare for Amazon, Microsoft, Google?",
+        "Company specific preparation tips",
+        "Product based company vs service based company preparation",
+        "How to prepare for service companies?"
+      ],
+      "responses": [
+        "Service-based Companies (TCS, Infosys, Cognizant, Wipro, Accenture): Emphasize Quantitative Aptitude, Logical Reasoning, Verbal tests, basic coding (Arrays/Strings), and clear English communication.",
+        "Product-based Companies (Amazon, Microsoft, Flipkart, Adobe): Heavy focus on LeetCode Medium/Hard DSA (Trees, Graphs, DP), Low-Level Object Oriented Design, OS concepts (concurrency/threading), and deep project architecture."
+      ]
+    },
+    {
+      "tag": "online_assessment",
+      "patterns": [
+        "How can I prepare for an online assessment?",
+        "Online assessment tips",
+        "What is OA in placements?",
+        "How to clear online assessment test?",
+        "Platforms used for online coding tests",
+        "How to manage time in online tests?"
+      ],
+      "responses": [
+        "Online Assessments (OAs) typically use platforms like HackerRank, HackerEarth, Mettl, or AMCAT. They combine MCQs (Aptitude + CS Fundamentals) with 2 coding problems. Manage time strictly: complete MCQs in first 30 mins, leaving 60 mins for coding.",
+        "To clear OAs: Practice writing bug-free code quickly on HackerRank. Always test for constraints: N <= 10^5 requires O(N log N) or O(N), whereas N <= 100 allows O(N^2)."
+      ]
+    },
+    {
+      "tag": "cgpa",
+      "patterns": [
+        "How much CGPA is required for placements?",
+        "Is CGPA important for placements?",
+        "Can I get placed with low CGPA?",
+        "Minimum CGPA for product companies",
+        "Does CGPA matter in campus placements?",
+        "CGPA requirement for top companies"
+      ],
+      "responses": [
+        "CGPA acts as a primary filter to enter placement drives. A CGPA of 7.5+ qualifies you for 85%+ of companies. A CGPA of 8.5+ ensures you are eligible for virtually all Tier-1 product companies.",
+        "If you have a lower CGPA (6.0 - 7.0): Compensate by excelling in competitive programming (Codeforces / LeetCode ratings), building high-impact full-stack/AI projects, and targeting off-campus opportunities where skill matters more than GPA."
+      ]
+    },
+    {
+      "tag": "backlogs",
+      "patterns": [
+        "What should I do if I have a backlog?",
+        "Can I get placed with backlogs?",
+        "Placement rules for students with backlogs",
+        "Are backlogs allowed in campus recruitment?",
+        "History of backlogs vs active backlogs"
+      ],
+      "responses": [
+        "Most companies require 'No active/standing backlogs' at the time of joining. A 'history of backlogs' (cleared backlogs) is accepted by many companies (including mass recruiters like TCS, Cognizant, and startups).",
+        "If you have active backlogs: Prioritize clearing them in the immediate semester exams. Meanwhile, build strong coding skills and apply to startups and off-campus roles that do not mandate zero-backlog policies."
+      ]
+    },
+    {
+      "tag": "communication",
+      "patterns": [
+        "How can I improve my communication skills for interviews?",
+        "English speaking for placements",
+        "How to speak fluently in technical interviews?",
+        "Communication skills preparation",
+        "Overcoming hesitation in interviews",
+        "Body language in interviews"
+      ],
+      "responses": [
+        "Communication in interviews is about clarity, not fancy vocabulary. Tips: 1) Practice explaining your code out loud in English daily, 2) Speak at a measured pace and pause before answering, 3) Maintain open body language and eye contact with the camera/panel.",
+        "Actionable exercise: Pick one technical project daily and record a 2-minute video explaining what problem it solves and what technologies you used. Review the video to improve clarity."
+      ]
+    },
+    {
+      "tag": "career_guidance",
+      "patterns": [
+        "Career guidance for placements",
+        "Which role should I aim for as a fresher?",
+        "Software Engineer vs Data Analyst vs Web Developer",
+        "Career paths after B.Tech CSE",
+        "How to decide my career domain?",
+        "Guidance on tech careers"
+      ],
+      "responses": [
+        "Common fresher roles: 1) Software Development Engineer (SDE) - Focus on DSA, OOP, and Problem Solving; 2) Full-Stack Developer - Focus on React, Node.js, and Databases; 3) Data Analyst / AI Engineer - Focus on Python, SQL, Statistics, and ML libraries.",
+        "Recommendation for freshers: Start with SDE / Software Engineer preparation because SDE hiring volume is the largest and core skills (DSA + CS fundamentals) transfer easily across all specialized fields."
+      ]
+    },
+    {
+      "tag": "interview_tips",
+      "patterns": [
+        "Give me interview tips",
+        "Best tips for campus interviews",
+        "How to crack any interview?",
+        "Do and don'ts in placement interviews",
+        "Interview preparation strategy",
+        "Tips for clearing HR and Technical rounds"
+      ],
+      "responses": [
+        "Top 5 Interview Tips: 1) Research the company's recent news, tech stack, and values before the interview, 2) Be honest: if you don't know an answer, say so politely rather than guessing, 3) Prepare 2 thoughtful questions to ask the interviewer at the end, 4) Dress professionally, and 5) Test your camera, mic, and internet setup 15 minutes before the call.",
+        "Always structure your answers using the STAR method (Situation, Task, Action, Result) when discussing your projects, internships, and behavioral questions."
+      ]
+    },
+    {
+      "tag": "interview_mistakes",
+      "patterns": [
+        "What are common interview mistakes?",
+        "Common mistakes in placement interviews",
+        "Why do students get rejected in interviews?",
+        "Mistakes to avoid in coding interviews",
+        "Biggest interview errors freshers make"
+      ],
+      "responses": [
+        "Top interview mistakes: 1) Jumping into writing code without clarifying the problem or discussing constraints, 2) Remaining silent during problem-solving, 3) Putting buzzwords or projects on your resume that you cannot explain, 4) Speaking negatively about past professors or colleges, and 5) Not asking questions when the interviewer asks 'Do you have any questions for us?'."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdfghjkl",
+        "qwertyuiop",
+        "zxcvbnm",
+        "random query test",
+        "what is the weather today",
+        "tell me a recipe for cake",
+        "unrelated nonsense"
+      ],
+      "responses": [
+        "I am your AI Placement Assistant, specialized in campus placements, aptitude, DSA, coding rounds, resumes, and interview preparation. Could you please ask a placement-related question?",
+        "I'm not quite sure how to answer that in the context of placement preparation. Try asking about 'Placement Roadmap', 'Aptitude preparation', 'DSA topics', 'HR interview questions', or 'Resume tips'!"
+      ]
+    }
+  ]
+}

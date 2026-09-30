@@ -1,0 +1,211 @@
+[
+  {
+    "id": 19,
+    "session_id": "user_uv32firqw_1790753072636",
+    "user_query": "dfghjklrtyuio",
+    "intent": "unknown",
+    "confidence": 0.08152975860542698,
+    "response": "I am your AI Placement Assistant, specialized in campus placements, aptitude, DSA, coding rounds, resumes, and interview preparation. Could you please ask a placement-related question?",
+    "response_time": 1.1912,
+    "status": "failed",
+    "timestamp": "2026-09-30 12:54:33"
+  },
+  {
+    "id": 18,
+    "session_id": "user_fu83i047o_1790693393500",
+    "user_query": "How to prepare for aptitude?",
+    "intent": "aptitude",
+    "confidence": 0.7420312650300773,
+    "response": "Top Aptitude Strategy: 1) Learn shortcut formulas and mental math tricks, 2) Target high-accuracy questions first, 3) Allocate 1-1.5 minutes per question, and 4) Solve at least 20-30 questions daily under timed conditions.",
+    "response_time": 0.0339,
+    "status": "success",
+    "timestamp": "2026-09-29 20:20:30"
+  },
+  {
+    "id": 17,
+    "session_id": "user_fu83i047o_1790693393500",
+    "user_query": "hii",
+    "intent": "unknown",
+    "confidence": 0.08152975860542698,
+    "response": "I'm not quite sure how to answer that in the context of placement preparation. Try asking about 'Placement Roadmap', 'Aptitude preparation', 'DSA topics', 'HR interview questions', or 'Resume tips'!",
+    "response_time": 0.1978,
+    "status": "failed",
+    "timestamp": "2026-09-29 20:19:53"
+  },
+  {
+    "id": 16,
+    "session_id": "5b303c72-4bc6-4716-80b4-6112c3248822",
+    "user_query": "how to prepare for campus placements?",
+    "intent": "placement",
+    "confidence": 0.546135583392201,
+    "response": "Placements typically evaluate students through four consecutive rounds: 1) Online Assessment (Aptitude & Coding), 2) Technical Interview(s), 3) Managerial / GD Round, and 4) HR Interview.",
+    "response_time": 0.556,
+    "status": "success",
+    "timestamp": "2026-09-29 20:18:48"
+  },
+  {
+    "id": 15,
+    "session_id": "802a94db-130a-469c-9989-d010f21550f2",
+    "user_query": "How should I prepare for aptitude tests?",
+    "intent": "aptitude",
+    "confidence": 0.7430757875803912,
+    "response": "Aptitude rounds test speed and accuracy. Key Quantitative topics: Time & Work, Speed Time & Distance, Percentages, Profit & Loss, Ratio & Proportion, Permutations & Combinations, Probability, and Number Systems. Practice on IndiaBIX, PrepInsta, and RS Aggarwal.",
+    "response_time": 0.004,
+    "status": "success",
+    "timestamp": "2026-09-24 14:22:47"
+  },
+  {
+    "id": 14,
+    "session_id": "97590ce2-3b5b-44b1-a45b-47f7e125d937",
+    "user_query": "What DSA topics should I learn?",
+    "intent": "dsa",
+    "confidence": 0.7995263498845662,
+    "response": "Must-know DSA topics in order of priority: 1) Arrays, Strings & HashMaps, 2) Two Pointers & Sliding Window, 3) Linked Lists, Stacks & Queues, 4) Binary Trees & Binary Search Trees (Traversals, LCA), 5) Graphs (BFS, DFS, Dijkstra), 6) Dynamic Programming (Knapsack, LCS, LIS), and 7) Heap / Priority Queue.",
+    "response_time": 0.004,
+    "status": "success",
+    "timestamp": "2026-09-24 14:22:33"
+  },
+  {
+    "id": 13,
+    "session_id": "6328fb78-dd72-43b2-a8e4-956b90c8c193",
+    "user_query": "Give me a placement preparation roadmap",
+    "intent": "placement_roadmap",
+    "confidence": 0.8686127636719893,
+    "response": "Placement Roadmap: Phase 1 (Month 1-2): Master 1 programming language (Java/C++/Python) and fundamentals of DSA (Arrays, Strings, Linked Lists, Stacks, Queues). Phase 2 (Month 3-4): Advanced DSA (Trees, Graphs, DP), Core CS Subjects (DBMS, OS, CN, OOP), and Aptitude practice. Phase 3 (Month 5): Build 2 solid projects, polish resume, practice LeetCode medium questions. Phase 4 (Month 6): Mock interviews, company past papers, and HR prep.",
+    "response_time": 0.2724,
+    "status": "success",
+    "timestamp": "2026-09-24 14:21:50"
+  },
+  {
+    "id": 1,
+    "session_id": "session_alpha",
+    "user_query": "What is the eligibility for placements?",
+    "intent": "placement_eligibility",
+    "confidence": 0.94,
+    "response": "Typical campus placement eligibility requires: 1) Minimum 60% or 6.5+ CGPA, 2) 60%+ in 10th and 12th, and 3) No active backlogs.",
+    "response_time": 0.024,
+    "status": "success",
+    "timestamp": "2026-09-24 10:15:00"
+  },
+  {
+    "id": 2,
+    "session_id": "session_alpha",
+    "user_query": "Give me a placement preparation roadmap",
+    "intent": "placement_roadmap",
+    "confidence": 0.96,
+    "response": "Placement Roadmap: Phase 1: 1 programming language + basic DSA. Phase 2: Advanced DSA + Core CS. Phase 3: 2 projects + resume. Phase 4: Mock interviews.",
+    "response_time": 0.028,
+    "status": "success",
+    "timestamp": "2026-09-24 10:20:00"
+  },
+  {
+    "id": 3,
+    "session_id": "session_alpha",
+    "user_query": "What DSA topics should I learn?",
+    "intent": "dsa",
+    "confidence": 0.92,
+    "response": "Key DSA topics: Arrays, Strings, HashMaps, Two Pointers, Linked Lists, Trees, Graphs, and Dynamic Programming.",
+    "response_time": 0.021,
+    "status": "success",
+    "timestamp": "2026-09-24 10:25:00"
+  },
+  {
+    "id": 4,
+    "session_id": "session_beta",
+    "user_query": "How should I prepare for aptitude tests?",
+    "intent": "aptitude",
+    "confidence": 0.89,
+    "response": "Focus on Time & Work, Speed Time & Distance, Percentages, Profit & Loss, Ratio, and Probability. Practice daily on IndiaBIX.",
+    "response_time": 0.019,
+    "status": "success",
+    "timestamp": "2026-09-24 11:05:00"
+  },
+  {
+    "id": 5,
+    "session_id": "session_beta",
+    "user_query": "How can I improve my resume?",
+    "intent": "resume",
+    "confidence": 0.91,
+    "response": "Keep it strictly 1 page! Use the XYZ formula for projects, link your GitHub/LinkedIn, and avoid graphics or tables.",
+    "response_time": 0.025,
+    "status": "success",
+    "timestamp": "2026-09-24 11:15:00"
+  },
+  {
+    "id": 6,
+    "session_id": "session_gamma",
+    "user_query": "What are common HR interview questions?",
+    "intent": "hr_interview",
+    "confidence": 0.95,
+    "response": "Top HR questions: 'Tell me about yourself', 'Strengths and weaknesses', 'Why join our company?', and 'Where do you see yourself in 5 years?'.",
+    "response_time": 0.022,
+    "status": "success",
+    "timestamp": "2026-09-24 11:30:00"
+  },
+  {
+    "id": 7,
+    "session_id": "session_gamma",
+    "user_query": "How to prepare for TCS?",
+    "intent": "company_preparation",
+    "confidence": 0.88,
+    "response": "TCS focuses on Quantitative Aptitude, Logical Reasoning, Verbal Ability, basic coding (Arrays/Strings), and clear English communication.",
+    "response_time": 0.031,
+    "status": "success",
+    "timestamp": "2026-09-24 11:45:00"
+  },
+  {
+    "id": 8,
+    "session_id": "session_delta",
+    "user_query": "How to get an internship in college?",
+    "intent": "internship",
+    "confidence": 0.9,
+    "response": "Apply via LinkedIn Jobs, Wellfound, Internshala, and company portals. Reach out to alumni with a personalized note and resume.",
+    "response_time": 0.026,
+    "status": "success",
+    "timestamp": "2026-09-24 12:10:00"
+  },
+  {
+    "id": 9,
+    "session_id": "session_delta",
+    "user_query": "What should I do if I have a backlog?",
+    "intent": "backlogs",
+    "confidence": 0.93,
+    "response": "Prioritize clearing active backlogs in upcoming semester exams. Many companies accept cleared backlogs, and startups focus on skills.",
+    "response_time": 0.023,
+    "status": "success",
+    "timestamp": "2026-09-24 12:20:00"
+  },
+  {
+    "id": 10,
+    "session_id": "session_epsilon",
+    "user_query": "How to prepare for technical interviews?",
+    "intent": "technical_interview",
+    "confidence": 0.94,
+    "response": "Technical rounds assess live DSA coding, Core CS (DBMS, OS, OOP, CN), project deep-dive, and thinking out loud.",
+    "response_time": 0.029,
+    "status": "success",
+    "timestamp": "2026-09-24 12:40:00"
+  },
+  {
+    "id": 11,
+    "session_id": "session_epsilon",
+    "user_query": "How should I introduce myself in an interview?",
+    "intent": "hr_interview",
+    "confidence": 0.97,
+    "response": "Present (degree, skills) -> Past (projects, internships) -> Future (career goals and why this company). Keep it under 90 seconds!",
+    "response_time": 0.02,
+    "status": "success",
+    "timestamp": "2026-09-24 12:50:00"
+  },
+  {
+    "id": 12,
+    "session_id": "session_zeta",
+    "user_query": "random query xyz",
+    "intent": "unknown",
+    "confidence": 0.31,
+    "response": "I am your AI Placement Assistant. Ask me anything about placements, aptitude, DSA, or interview preparation!",
+    "response_time": 0.035,
+    "status": "failed",
+    "timestamp": "2026-09-24 13:00:00"
+  }
+]
